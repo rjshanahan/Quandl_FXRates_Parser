@@ -9,9 +9,9 @@ Anyway my issue is how to consume these once retrieved via the Quandl API. As a 
 Fair warning... I am a programming buffoon... but I've written a Python based parser to tidy things up, with some R based bookends to call and load resulting rates
 
 There are three parts:
-1. "1.Quandl_FXRate_Retrieve_from_API.R": this R file creates a list of URLs to call the Quandl API in one batch. It spits out a doc containing the XML documents to your working directory
-2. "2.Quandl_FXRates_Parser.py": this Python file parsers the messy file and coughs up a pretty CSV of the currency, date and rate
-3. "3.Quandl_FXRate_Load_into_Dataframe.R": this R program loads the CSV into a data frame. It also creates dummy entries for USD for calculation ease
+- "1.Quandl_FXRate_Retrieve_from_API.R": this R file creates a list of URLs to call the Quandl API in one batch. It spits out a doc containing the XML documents to your working directory
+- "2.Quandl_FXRates_Parser.py": this Python file parsers the messy file and coughs up a pretty CSV of the currency, date and rate
+- "3.Quandl_FXRate_Load_into_Dataframe.R": this R program loads the CSV into a data frame. It also creates dummy entries for USD for calculation ease
 
 References:
 Some info on Quandl API - including how to get your own auth token:
