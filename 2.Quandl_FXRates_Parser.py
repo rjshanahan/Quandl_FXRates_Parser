@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 ### FINAL PARSER for QUANDL FX RATES ###
+# adapted from Udacity 'MongoDB Data Wrangling' course final project
 
 import xml.etree.cElementTree as ET
 import StringIO
