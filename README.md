@@ -6,7 +6,7 @@ Ever wanted a list of all historical FX Rates? Quandl in its awesomeness can hel
 
 Anyway my issue is how to consume these once retrieved via the Quandl API. As a lazy person i retrieve all rates in one go. What you're left with is a list of messy XML documents.
 
-Fair warning... I am a programming buffoon... but I've written a Python based parser to tidy things up, with some R based bookends to call and load resulting rates.
+I've written a Python based parser to tidy things up, with some R based bookends to call and load resulting rates.
 
 There are three parts:
 - "1.Quandl_FXRate_Retrieve_from_API.R": this R file creates a list of URLs to call the Quandl API in one batch. It spits out a doc containing the XML documents to your working directory
@@ -21,5 +21,3 @@ https://www.quandl.com/help/api
 - Generic info re: the returned rates: This exchange rate shows the value of 1 U.S. Dollar in [your currency]. This exchange rate is an amalgamation of rates from multiple sources.  These include exchanges, brokerages, newspapers and central bank sources. High and Low rates are crudely estimated.
 
 This has been tested reliably with Python 2.7 and 3.4 and R 3.1
-
-I'm sure there are way more efficient ways of doing this... i'm all ears!
