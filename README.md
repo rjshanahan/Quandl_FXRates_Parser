@@ -1,4 +1,5 @@
 # Quandl_FXRates_Parser
+####*note: requires own API key from Quandl*####
 
 Python parser to extract historical FX Rates from Quandl (xml) download - batch call for ALL currencies
 
